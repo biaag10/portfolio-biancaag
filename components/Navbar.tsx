@@ -23,7 +23,7 @@ const Navbar = () => {
                             Projetos
                         </Link>
                         {/* editar link para redirecionar para contato */}
-                        <Link href="/" className="text-gray-700 dark:text-gray-300 hover:text-blue-500">
+                        <Link href="/contact" className="text-gray-700 dark:text-gray-300 hover:text-blue-500">
                             Contato
                         </Link>
                     </div>
