@@ -2,7 +2,7 @@ import Link from "next/link"
 
 const Navbar = () => {
     return (
-        <nav className="bg-qhite dark:bg-gray-900 shadow-md">
+        <nav className="bg-white dark:bg-gray-900 shadow-md">
             <div className="max-w-6xl mx-auto px-4">
                 <div className="flex justify-between items-center py-4">
                     {/* LOGO */}
@@ -19,7 +19,7 @@ const Navbar = () => {
                             Sobre
                         </Link>
                         {/* editar link para redirecionar para projetos */}
-                        <Link href="/" className="text-gray-700 dark:text-gray-300 hover:text-blue-500">
+                        <Link href="/projects" className="text-gray-700 dark:text-gray-300 hover:text-blue-500">
                             Projetos
                         </Link>
                         {/* editar link para redirecionar para contato */}
