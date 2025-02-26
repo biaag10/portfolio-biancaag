@@ -15,7 +15,7 @@ const Navbar = () => {
                             Home
                         </Link>
                         {/* editar link para redirecionar para sobre */}
-                        <Link href="/" className="text-gray-700 dark:text-gray-300 hover:text-blue-500">
+                        <Link href="/about" className="text-gray-700 dark:text-gray-300 hover:text-blue-500">
                             Sobre
                         </Link>
                         {/* editar link para redirecionar para projetos */}

@@ -37,7 +37,7 @@ export default function Contato() {
     return (
         <>
             <Navbar />
-            <Box display="flex" flexDirection="column" alignItems="center" justifyContent="center" minHeight="100vh" p={3}>
+            <Box display="flex" flexDirection="column" alignItems="center" justifyContent="center" minHeight="78vh" p={3}>
 
                 {/* título */}
                 <Typography variant="h4" fontWeight="bold" textAlign="center" mb={3}>
@@ -47,7 +47,7 @@ export default function Contato() {
                 {/* contatos */}
                 <Box display="flex" justifyContent="center" gap={3} mb={4} >
                     <Typography display="flex" alignItems="center" >
-                        <FaEnvelope className="mr-2 text-white" />  
+                        <FaEnvelope className="mr-2 text-white" />
                         <a href="mailto:biancandradegalvao@outlook.com" className="text-white">
                             biancandradegalvao@outlook.com
                         </a>
@@ -81,13 +81,13 @@ export default function Contato() {
                     maxWidth="1000px"
                     width="100%"
                     bgcolor="background.paper"
-                    p={2} 
-                    borderRadius={1} 
+                    p={2}
+                    borderRadius={1}
                     boxShadow={3}
-                    >
+                >
                     <FormControl fullWidth>
                         <InputLabel shrink>Nome</InputLabel>
-                        <TextField 
+                        <TextField
                             variant="outlined"
                             value={nome}
                             onChange={(e) => setNome(e.target.value)}
@@ -96,7 +96,7 @@ export default function Contato() {
                     </FormControl>
                     <FormControl fullWidth>
                         <InputLabel shrink>E-mail</InputLabel>
-                        <TextField 
+                        <TextField
                             type="email"
                             variant="outlined"
                             value={email}
@@ -107,7 +107,7 @@ export default function Contato() {
 
                     <FormControl fullWidth>
                         <InputLabel shrink>Mensagem</InputLabel>
-                        <TextField 
+                        <TextField
                             variant="outlined"
                             multiline
                             rows={4}
@@ -126,10 +126,14 @@ export default function Contato() {
                             {status}
                         </Typography>
                     )}
-                    
+
                 </Box>
             </Box>
-            <Footer />
+            <div className="flex flex-col max-h-screen">
+                <main className="flex-grow">{/* Conteúdo principal da página */}</main>
+                <Footer />
+            </div>
+
         </>
     )
 

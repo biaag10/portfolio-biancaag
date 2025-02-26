@@ -14,16 +14,6 @@ export default function Home() {
         <p className="text-gray-600 dark:text-gray-300 mt-4">
           Aqui você encontra meus projetos e informações sobre mim.
         </p>
-        {/* Minha imagem */}
-        {/* <div className="relative w-96 h-96"> 
-          {/* <Image
-            src="/foto-portfolio.svg"
-            alt="Minha Foto"
-            layout="fill"
-            objectFit="cover"
-            className="rounded-full shadow-lg"
-          /> 
-        </div> */}
       </main>
       {/* Rodapé */}
       <Footer />
